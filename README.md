@@ -1,2 +1,2 @@
-# antimony-inc
+# Antimony
 Website for personal web design shop
