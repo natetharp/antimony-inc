@@ -1,0 +1,48 @@
+/**
+ * Colors
+
+Dark Green: #3D4844
+Light Green: #8D8A77
+Beige:	#D2C6AD
+*/
+
+
+/**
+ * General
+*/
+body {
+	background: #3D4844;
+}
+
+main {
+	margin: 25% auto; 
+	padding: 0 10%; 
+	max-width: 600px; 
+	text-align: center;
+}
+
+main h1 svg path {
+	fill: #D2C6AD;
+}
+	
+a.page-skip-link {
+	left:-999px;
+	position:absolute;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	z-index:-999;
+}
+a.page-skip-link:focus, a.page-skip-link:active {
+	background:#ffffff;
+	color:blue;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: auto;
+	overflow:auto;
+	margin: 10px;
+	padding:5px;
+	z-index:999;
+}
